@@ -23,7 +23,7 @@ def CheckDirectory():
         
         pathFile = path + "/" + filename
         
-        #TODO: strictly monitor after the the types and not letting it reach 10 type call before
+        # TODO: strictly monitor after the the types and not letting it reach 10 type call before
         #      deletion. Check if order is correspond to the the sequence and not just throw it into the array
         if(fileIndex.has_key(pathFile) == False):
             fileIndex[pathFile] = []
