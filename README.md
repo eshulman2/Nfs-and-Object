@@ -1,5 +1,5 @@
 # Introduction
-This python scripts detect a new file in nfs and then upload it to an object storage
+This python scripts detect a new file in nfs and then upload it to an s3 based object storage
 
 ## getting started
 First you need to installed the requiered packages
